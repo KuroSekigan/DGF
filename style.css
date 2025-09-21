@@ -20,44 +20,27 @@ body {
   perspective: 1000px;
 }
 
-.mensaje {
+.love-message {
   position: absolute;
   top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 2rem;
-  font-weight: bold;
-  color: #fff; /* blanco base */
+  width: 100%;
   text-align: center;
-  text-shadow: 
-    0 0 5px #d9ff00,
-    0 0 10px #d9ff00,
-    0 0 20px #d9ff00,
-    0 0 40px #d9ff00,
-    0 0 80px #d9ff00;
-  animation: glow 2s infinite alternate;
-  z-index: 1000; /* asegurarse que quede encima de todo */
+  font-size: 2rem;
+  font-family: "Comic Sans MS", cursive;
+  color: #fff176; /* amarillo suave */
+  text-shadow: 0 0 15px #ffeb3b, 0 0 30px #fdd835;
+  animation: glow 2s ease-in-out infinite alternate;
 }
 
-/* Animación fosforescente */
 @keyframes glow {
-  0% {
-    text-shadow: 
-      0 0 5px #d9ff00,
-      0 0 10px #d9ff00,
-      0 0 20px #d9ff00,
-      0 0 40px #d9ff00,
-      0 0 80px #d9ff00;
+  from {
+    text-shadow: 0 0 10px #ffeb3b, 0 0 20px #fdd835;
   }
-  100% {
-    text-shadow: 
-      0 0 10px #d9ff00,
-      0 0 20px #d9ff00,
-      0 0 40px #d9ff00,
-      0 0 80px #d9ff00,
-      0 0 160px #d9ff00;
+  to {
+    text-shadow: 0 0 20px #ffee58, 0 0 40px #fbc02d;
   }
 }
+
 
 .night {
   position: fixed;
