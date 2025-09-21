@@ -30,11 +30,11 @@ body {
   color: #fff; /* blanco base */
   text-align: center;
   text-shadow: 
-    0 0 5px #ff00ff,
-    0 0 10px #ff00ff,
-    0 0 20px #ff00ff,
-    0 0 40px #ff00ff,
-    0 0 80px #ff00ff;
+    0 0 5px #d9ff00,
+    0 0 10px #d9ff00,
+    0 0 20px #d9ff00,
+    0 0 40px #d9ff00,
+    0 0 80px #d9ff00;
   animation: glow 2s infinite alternate;
   z-index: 1000; /* asegurarse que quede encima de todo */
 }
@@ -43,22 +43,21 @@ body {
 @keyframes glow {
   0% {
     text-shadow: 
-      0 0 5px #ff00ff,
-      0 0 10px #ff00ff,
-      0 0 20px #ff00ff,
-      0 0 40px #ff00ff,
-      0 0 80px #ff00ff;
+      0 0 5px #d9ff00,
+      0 0 10px #d9ff00,
+      0 0 20px #d9ff00,
+      0 0 40px #d9ff00,
+      0 0 80px #d9ff00;
   }
   100% {
     text-shadow: 
-      0 0 10px #ff69b4,
-      0 0 20px #ff69b4,
-      0 0 40px #ff69b4,
-      0 0 80px #ff69b4,
-      0 0 160px #ff69b4;
+      0 0 10px #d9ff00,
+      0 0 20px #d9ff00,
+      0 0 40px #d9ff00,
+      0 0 80px #d9ff00,
+      0 0 160px #d9ff00;
   }
 }
-
 
 .night {
   position: fixed;
