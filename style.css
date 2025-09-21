@@ -22,11 +22,11 @@ body {
 
 .mensaje {
   position: absolute;
-  top: 20px;
+  top: 40px;
   left: 50%;
   text-align: center;
   transform: translateX(-50%);
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: bold;
   color: #fff176; /* amarillo suave */
   text-shadow: 0 0 15px #ffeb3b, 0 0 30px #fdd835;
