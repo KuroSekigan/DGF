@@ -20,16 +20,17 @@ body {
   perspective: 1000px;
 }
 
-.love-message {
+.mensaje {
   position: absolute;
   top: 20px;
-  width: 100%;
+  left: 50%;
   text-align: center;
   font-size: 2rem;
-  font-family: "Comic Sans MS", cursive;
+  font-weight: bold;
   color: #fff176; /* amarillo suave */
   text-shadow: 0 0 15px #ffeb3b, 0 0 30px #fdd835;
   animation: glow 2s ease-in-out infinite alternate;
+  z-index: 1000;
 }
 
 @keyframes glow {
